@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@import url('font.css?120113');
+
+html {  }
+body {
+	margin: 0;
+	padding: 20px 0 0;
+	font-family: "Segoe UI", Arial, Meiryo, sans-serlf;
+	color: #333;
+	background: #FFF;
+	border-top: 5px solid #8C8;
+}
+
+div, p, strong, span { margin: 0; padding: 0; }
+img { border: 0; }
+iframe { margin: 0; padding: 0; }
+
+#PAGEBODY { margin: 0 auto; width: 728px; }
+
+strong.Title { font-size: 18px; }
+p.Name { font-size: 84px; }
+
+p.P_Name { margin-bottom: 12px; font-size: 48px; }
+p.P_Desc { font-size: 24px; }
+
+div.Subscribes { width: 360px; float: left; }
+div.Subscribes ul { margin: 0; padding: 0; list-style-type: none; }
+div.Subscribes ul li { display: block; margin-bottom: 2px; font-size: 16px; }
+div.Subscribes ul li a { }
+div.Subscribes ul li img { margin-right: 5px; vertical-align: middle; }
+
+p.P_IconImg { margin: 0 12px 12px 0; float: left; }
+p.P_IconImg img { width: 150px; height: 150px; }
+
+div.Section { margin-bottom: 18px; }
+
+p.Text { font-size: 42px; }
+p.TextDesc { color: #CCC; font-size: 18px; }
+span.TextTitle { color: #06D; font-size: 18px; }
+
+img.CodecademyIcon { width: 60px; height: 60px; }
+
+div#PAGEFOOTER { padding: 15px 0; text-align: center; border-top: 1px solid #CCC; clear: both; }
+div#PAGEFOOTER p { padding: 4px; font-size: 16px; }

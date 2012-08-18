@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+/* A */
+a:link		{ color: #44CC44; text-decoration: none; }
+a:visited	{ color: #66CC66; text-decoration: none; }
+a:hover, a:active { color: #88CC88; text-decoration: underline; }
+
+/* Fontsize */
+h1 { font-size: 24px; line-height: 1; }
+h2 { font-size: 22px; line-height: 1; }
+h3 { font-size: 20px; line-height: 1.2; }
